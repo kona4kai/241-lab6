@@ -6,9 +6,9 @@ package lab6;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class AppTest {
+public class ComponentsTest {
     @Test public void appHasAGreeting() {
-        App classUnderTest = new App();
+        App classUnderTest = new Components();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }
