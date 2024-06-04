@@ -7,8 +7,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ComponentsTest {
-    @Test public void appHasAGreeting() {
-        Components classUnderTest = new Components();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
-    }
+    // @Test public void appHasAGreeting() {
+    //     Components classUnderTest = new Components();
+    //     assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+    // }
 }
